@@ -1,71 +1,37 @@
-<!--# 🚩🗺여성·아동 안심거리 길라잡이 👩🏼‍🤝‍👩🏻
+<h2 align="center"> 중고거래 웹사이트 개발 </h2>
 
-## 📚프로젝트 소개
-### 프로젝트의 목적과 용도
+<h4 align="center"> 중고물품들을 사고 팔 수 있는 웹 사이트입니다! <br/> 종류와 금액 별 카테고리로 보기 쉽게 물품을 구분하여 볼 수 있습니다. <br/> 사용하지 않는 중고물품을 판매하여 소소한 용돈을 챙기고, 필요한 중고물품을 저렴하게 구매해보세요! </h4>
 
-> 국가에서 '여성/아동 안심 귀갓길' 및 '여성 안심 지킴이집' 등의 정책을 전국적으로 시행하고있다.
-하지만 실상은 정책의 인지도가 떨어져 제대로 시행되고 있다고 보기 힘들다. 따라서 해당 정책을 알리고자 여성 아동 안심거리 길라잡이를 만들었다. 
+## 목차
+  - [개요](#개요)
+  - [화면](#화면)
+  - [기능](#기능)
 
+## 개요
+- 프로젝트 이름 : OneShopping (OwnShopping)
+- 프로젝트 제작기간 : 2022.08 ~ 2022.12
+- FE : React, Redux
+- BE : Node.js
+- 개발 환경 : VSCode
+- 인원 구성
 
-* 웹앱 프로젝트로 지도로 지킴이집과 안심거리를 확인 할 수 있습니다.
-<br>
-<br>
-<br>
-
-### ▶️ 구동 영상 
-https://youtu.be/mPN-k1ePtmw
-
-<br>
-
-### ▶️ 페이지 둘러보기 
-https://201safe.netlify.app/
-
-<br>
-
-## 👨‍👨‍👧‍👧 팀 소개 
-<br>
-
-<img src="https://user-images.githubusercontent.com/50399088/128877830-8ce41454-e01e-495f-a417-c75698ce043c.jpg" width="300">
-
-201호 개발자들
-
-|팀|이름|깃허브|
+|포지션|이름|깃허브 주소|
 |------|---|---|
-|프론트|이영한|[2zerone](https://github.com/2zerone)|
-|프론트|한지은|[onezeun](https://github.com/onezeun)|
-|데이터|주지운|[zu21un](https://github.com/zu21un)|
-|데이터|이혜지|[modsiw](https://github.com/zzambbang)|
-|데이터|김태완|[taewannn](https://github.com/taewannn)|
+|풀스택|이영한|[2zerone](https://github.com/2zerone)|
+|풀스택|송한결|[steadiestt](https://github.com/steadiestt)|
 
-<br>
-<br>
-<br>
+## 화면
+<p align="center" width="100%">
+  <img src="https://github.com/younghangyul/OneShopping/assets/83628242/ba50542f-a5a5-4e4e-9e38-690a0c533ea6" width="45%">
+  <img src="https://github.com/younghangyul/OneShopping/assets/83628242/e2076c13-ee5b-4947-bf02-d6645b205613" width="45%">
+</p>
 
-## 🛠 사용 기술 스택
-<br>
+## 기능
+⭐ 상품을 판매등록할 수 있습니다.
+- 상품을 등록하면 품목별, 가격별, 판매여부별로 구분하여 상품을 확인할 수 있습니다.
 
-![tech stack](https://user-images.githubusercontent.com/83628242/132540611-e118459f-59c6-4cdd-a0a8-33b4ec27f5c6.jpg)
-<br>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5e81d29e-5e8a-4aa1-aad4-021a6d6fca6e/deploy-status)](https://app.netlify.com/sites/201safe/deploys)
-<br>
-<br>
-<br>
+⭐ 마이페이지 기능이 있습니다.
+- 마이페이지에서 본인의 프로필 사진, 닉네임을 변경할 수 있습니다.
 
-## 🔧 Web Architecture
-<br>
-
-![web architecture](https://user-images.githubusercontent.com/83628242/132539213-b7f5b44a-38f9-494b-848a-c81513c99737.PNG)
-
-<br>
-<br>
-<br>
-
-## ⚙ 핵심 기능
-![주요기능](https://user-images.githubusercontent.com/50399088/132606650-d6d11bd1-b476-4f32-b47a-ff2a71c23503.png)
-
-![주요기능](https://user-images.githubusercontent.com/50399088/132606673-5a336685-eb32-4572-8118-94d191644265.png)
-
-
-
-## 회고 
-기술선택을 하기 이전에 충분한 근거와 이유를 찾는것이 큰 교훈이었다. -->
+⭐ 채팅이 가능합니다.
+- 채팅 기능을 통해 실시간으로 대화가 가능합니다.
